@@ -1,0 +1,36 @@
+body {
+  background-image: url("../assets/bg/back.jpg"); /* Ganti sesuai lokasi gambar lo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.navbar {
+  background-color: rgba(16, 14, 19, 0.8) !important; 
+}
+
+
+input.form-control {
+  background-color: #212529;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+input.form-control:focus {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  border-color: #555;
+}
+
+.bg-dark .form-control::placeholder {
+  color: #ccc; /* abu-abu terang, atau bisa juga white */
+  opacity: 1;  /* kadang default opacity-nya terlalu rendah */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

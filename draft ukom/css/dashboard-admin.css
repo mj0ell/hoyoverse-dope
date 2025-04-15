@@ -1,0 +1,82 @@
+body {
+  background-image: url("../assets/bg/back.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+.navbar {
+  background-color: rgba(16, 14, 19, 0.8) !important; 
+}
+
+
+.card { 
+  border-radius: 10px;
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+.form-control {
+  background-color: #333333; 
+  color: #ffffff; 
+  border-color: #444444; 
+}
+
+
+input.form-control:focus {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  border-color: #555;
+}
+.bg-dark .form-control::placeholder {
+  color: #ccc; 
+  opacity: 1; 
+}
+
+.dashboard-welcome {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000000;
+}
+
+
+.dashboard-subtext {
+  font-size: 1.1rem;
+  color: #ffffff;
+  animation: fadeInUp 1.3s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

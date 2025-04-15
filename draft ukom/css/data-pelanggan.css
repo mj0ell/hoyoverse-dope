@@ -1,0 +1,78 @@
+body {
+    background-image: url("../assets/bg/back.jpg"); /* Ganti sesuai lokasi gambar lo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+
+.card {
+    background-color: rgba(33, 37, 41, 0.95) !important; /* semi transparan gelap */
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    background-color: #444 !important;
+    border-bottom: 1px solid #666;
+}
+
+.table {
+    background-color: transparent;
+    color: #fff;
+}
+
+.table thead {
+    background-color: #343a40;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-dark td, .table-dark th {
+    border-color: #555;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+.modal-header {
+    border-bottom: 1px solid #555;
+}
+
+.modal-footer {
+    border-top: 1px solid #555;
+}
+
+.bg-dark .form-control::placeholder {
+    color: #ccc; /* abu-abu terang, atau bisa juga white */
+    opacity: 1;  /* kadang default opacity-nya terlalu rendah */
+  }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

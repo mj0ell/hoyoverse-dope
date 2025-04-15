@@ -1,0 +1,22 @@
+  <!-- Modal Add Customer Data -->
+  <div class="modal fade" id="addUserModal" tabindex="-1" aria-labelledby="addUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title">Add New Customer Data</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="../config/proses-pelanggan.php?action=simpan" method="POST">
+          <div class="modal-body">
+            <input type="text" name="NamaPelanggan" class="form-control mb-2 bg-dark text-white border-secondary" placeholder="Nama Pelanggan" required>
+            <input type="text" name="Alamat" class="form-control mb-2 bg-dark text-white border-secondary" placeholder="Address" required>
+            <input type="number" name="NomorTelepon" class="form-control mb-2 bg-dark text-white border-secondary" placeholder="Phone Number" required>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keluar</button>
+            <button type="submit" class="btn btn-primary">Simpan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

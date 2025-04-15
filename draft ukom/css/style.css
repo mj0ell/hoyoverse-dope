@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/bg/back.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+/* Overlay Effect */
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  background-color: rgba(66, 66, 70, 0.9); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  color: #cecac8;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-icon {
+  background-color: #3a3939;
+  color: #e9cfc5;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #5f5d5d;
+  border-radius: 0 5px 5px 0;
+  background-color: #5f5d5d;
+  color: #000;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.btn-login {
+  background-color: #706f6f;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #615f5f;
+  color: #ffffff;
+}
+
+.text-center a {
+  color: #e7e5e4;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  color: #007bff;
+}

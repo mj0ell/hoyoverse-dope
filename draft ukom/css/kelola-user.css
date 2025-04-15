@@ -1,0 +1,108 @@
+/* Set the background image for the entire body */
+body {
+  background-image: url("../assets/bg/back.jpg"); /* Replace with the correct path to your image */
+  background-size: cover; /* Make sure the image covers the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  color: #ffffff; /* Ensure text is white for readability */
+}
+
+/* Navbar with transparency */
+.navbar {
+  background-color: rgba(16, 14, 19, 0.8) !important; /* Transparent Navbar */
+}
+
+/* Navbar text color */
+.navbar-nav .nav-link {
+  color: #ffffff; /* Change this to your preferred color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change this to your desired hover color */
+}
+
+/* Navbar brand text color */
+.navbar-brand {
+  color: #ffffff; /* Change this to your preferred color */
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* Change this to your desired hover color */
+}
+
+/* Optional: Add a semi-transparent overlay to darken the background image */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: -1; /* Ensure it stays behind the content */
+}
+/* Dark background for the card that wraps the table */
+.custom-card {
+  background-color: #2c2c2c; /* Dark gray background */
+  color: #ffffff; /* White text */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Dark background for the table */
+.custom-table {
+  background-color: #333333; /* Darker gray background for the table */
+  color: #ffffff; /* White text for contrast */
+  border: 1px solid #444444; /* Slightly lighter gray border */
+}
+
+/* Darker background for table headers */
+.custom-table thead {
+  background-color: #222222; /* Dark background for header */
+  color: #ffffff; /* White text in the header */
+}
+
+/* Dark background for table rows and hover effect */
+.custom-table tbody tr {
+  background-color: #2e2e2e; /* Dark gray row background */
+  border-bottom: 1px solid #444444; /* Light gray border between rows */
+}
+
+/* Slightly lighter background on hover for rows */
+.custom-table tbody tr:hover {
+  background-color: #3a3a3a; /* Lighter gray on hover */
+}
+
+/* Custom styles for buttons (Edit and Delete) */
+.btn-warning {
+  background-color: #ffcc00; /* Bright yellow for Edit */
+  color: #000000; /* Black text for contrast */
+}
+
+.btn-danger {
+  background-color: #d9534f; /* Bright red for Delete */
+  color: #ffffff; /* White text */
+}
+
+/* Dark background for modal */
+.modal-content {
+  background-color: #2c2c2c; /* Dark gray for modal */
+  color: #ffffff; /* White text */
+}
+
+/* Dark header for the modal */
+.modal-header {
+  background-color: #222222; /* Darker header for modal */
+  color: #ffffff; /* White text */
+}
+
+/* Dark body for the modal */
+.modal-body {
+  background-color: #333333; /* Slightly lighter body for modal */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
